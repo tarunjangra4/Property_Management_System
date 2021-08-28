@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+td {
+  text-align: center;
+}
+.headings {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.headings h4 {
+  text-align: center;
+}
+.showdata {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+}
